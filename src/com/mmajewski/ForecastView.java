@@ -29,6 +29,6 @@ public class ForecastView implements Observer, ElementView {
 
     @Override
     public void show() {
-        /* TODO */
+        System.out.println("Current pressure: " +currentPressure + " hPa");
     }
 }
